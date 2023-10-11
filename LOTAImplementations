@@ -1,0 +1,6 @@
+1. User triggers LOTA
+2. Mobile app asks user to press WiFi button on remote for 10 secs
+3. WiFi module opens ble window
+4. Mobile app sends command over ble requesting WiFi AP for LOTA
+5. WiFi module acknowledges to mobile app and then opens AP after closing BLE
+6. Mobile app starts sending the packets - just like before
